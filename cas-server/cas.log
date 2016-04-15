@@ -1,0 +1,786 @@
+2016-03-29 16:02:18,081 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-29 16:02:21,094 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-03-29 16:02:37,311 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-03-29 16:02:37,311 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-03-29 16:02:39,435 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-03-29 16:02:39,438 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-03-29 16:02:39,438 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-03-29 16:02:55,213 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - UserAuthenticationHandler successfully authenticated devil+password
+2016-03-29 16:02:55,219 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated devil with credentials [devil+password].
+2016-03-29 16:02:55,223 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [devil+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Tue Mar 29 16:02:55 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-29 16:02:55,226 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-3HgAlVhibvAEezcclLuueLoWbSiVtIGehNLFS5OaNBKKFFdAU3-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Tue Mar 29 16:02:55 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-30 15:09:46,942 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:09:49,617 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-03-30 15:10:08,109 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-03-30 15:10:08,114 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-03-30 15:10:08,114 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-03-30 15:10:15,008 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-03-30 15:10:15,008 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-03-30 15:11:47,216 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:11:47,217 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:13:32,538 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-30 15:13:47,204 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:13:47,204 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:15:47,203 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:15:47,203 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:17:49,501 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:17:52,122 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-03-30 15:18:10,742 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-03-30 15:18:10,746 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-03-30 15:18:10,746 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-03-30 15:18:14,652 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-03-30 15:18:14,652 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-03-30 15:18:47,720 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-30 15:19:29,003 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:19:31,172 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-03-30 15:19:50,055 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-03-30 15:19:50,058 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-03-30 15:19:50,058 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-03-30 15:20:13,906 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-03-30 15:20:13,906 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-03-30 15:21:29,197 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:21:29,198 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:23:21,736 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-30 15:23:29,195 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:23:29,195 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:24:40,494 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-30 15:24:41,615 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-30 15:25:29,205 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:25:29,206 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:27:29,197 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:27:29,197 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:28:46,735 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:28:48,969 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-03-30 15:29:07,834 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-03-30 15:29:07,839 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-03-30 15:29:07,839 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-03-30 15:30:46,938 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:30:46,939 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:32:46,925 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:32:46,925 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:34:17,642 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:34:19,774 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-03-30 15:34:23,481 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-03-30 15:34:23,481 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-03-30 15:34:38,775 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-03-30 15:34:38,776 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-03-30 15:34:38,777 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-03-30 15:34:57,457 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-30 15:36:17,834 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:36:17,835 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:38:17,829 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:38:17,830 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:40:17,830 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:40:17,831 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:42:17,830 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:42:17,830 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:44:17,831 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:44:17,831 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:46:17,831 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:46:17,832 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:48:17,831 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:48:17,831 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:50:17,831 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:50:17,831 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:52:17,830 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:52:17,830 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:54:17,833 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:54:17,833 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:56:17,832 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:56:17,832 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 15:58:17,831 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 15:58:17,831 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 16:00:17,831 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 16:00:17,832 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 16:02:17,830 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 16:02:17,831 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 16:04:17,835 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 16:04:17,835 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 16:06:17,832 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-30 16:06:17,833 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-30 16:07:32,003 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-30 16:09:51,236 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-30 16:16:02,183 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-30 16:19:02,358 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-31 23:26:44,323 ERROR [org.jasig.cas.web.init.SafeContextLoaderListener] - SafeContextLoaderListener: 
+The Spring ContextLoaderListener we wrap threw on contextInitialized.
+But for our having caught this error, the web application context would not have initialized.
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ServletContext resource [/WEB-INF/spring-configuration/applicationContext-datasource.xml]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:628)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:389)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:294)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized(SafeContextLoaderListener.java:75)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:771)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:763)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1121)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:355)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2479)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2516)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2301)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:317)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:785)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1377)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	... 56 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:69)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:241)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:259)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305)
+	... 83 more
+2016-03-31 23:46:13,354 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-31 23:46:15,698 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-03-31 23:46:26,932 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-03-31 23:46:26,932 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-03-31 23:46:34,480 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-03-31 23:46:34,482 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-03-31 23:46:34,482 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-03-31 23:48:13,560 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-31 23:48:13,561 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-31 23:48:24,072 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-31 23:49:15,318 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-31 23:50:13,552 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-31 23:50:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-31 23:50:14,101 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-31 23:50:14,399 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-31 23:50:14,738 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-31 23:52:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-31 23:52:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-31 23:52:22,559 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-03-31 23:54:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-31 23:54:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-31 23:56:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-31 23:56:13,555 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-03-31 23:58:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-31 23:58:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:00:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:00:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:02:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:02:13,555 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:04:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:04:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:06:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:06:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:08:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:08:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:10:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:10:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:12:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:12:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:14:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:14:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:16:13,558 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:16:13,558 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:18:13,556 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:18:13,556 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:20:13,552 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:20:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:22:13,552 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:22:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:22:20,133 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-04-01 00:24:13,552 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:24:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:26:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:26:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:27:21,281 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-04-01 00:28:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:28:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:30:13,552 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:30:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:30:58,215 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-04-01 00:31:25,796 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-04-01 00:32:13,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:32:13,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:34:05,372 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:34:07,591 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-04-01 00:34:13,172 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-04-01 00:34:13,172 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-04-01 00:34:26,409 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-04-01 00:34:26,411 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-04-01 00:34:26,411 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-04-01 00:35:34,405 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-04-01 00:36:05,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:36:05,555 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:37:10,868 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:37:12,909 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-04-01 00:37:17,759 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-04-01 00:37:17,759 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-04-01 00:37:31,877 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-04-01 00:37:31,880 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-04-01 00:37:31,880 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-04-01 00:39:11,047 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:39:11,048 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:41:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:41:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:43:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:43:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:45:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:45:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:47:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:47:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:49:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:49:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:51:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:51:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:53:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:53:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:55:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:55:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:57:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:57:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 00:59:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 00:59:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:01:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:01:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:03:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:03:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:05:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:05:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:07:11,046 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:07:11,046 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:09:11,046 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:09:11,048 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:11:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:11:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:13:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:13:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:15:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:15:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:17:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:17:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:19:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:19:11,046 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:21:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:21:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:23:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:23:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:25:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:25:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:27:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:27:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:29:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:29:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:31:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:31:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:33:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:33:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:35:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:35:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:37:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:37:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:39:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:39:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:41:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:41:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:43:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:43:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:45:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:45:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:47:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:47:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:49:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:49:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:51:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:51:11,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:53:11,043 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:53:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-01 01:55:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-01 01:55:11,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-05 16:53:35,785 ERROR [org.jasig.cas.web.init.SafeContextLoaderListener] - SafeContextLoaderListener: 
+The Spring ContextLoaderListener we wrap threw on contextInitialized.
+But for our having caught this error, the web application context would not have initialized.
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ServletContext resource [/WEB-INF/spring-configuration/applicationContext-datasource.xml]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:628)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:389)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:294)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized(SafeContextLoaderListener.java:75)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:771)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:763)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1121)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:355)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2479)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2516)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2301)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:317)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:785)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1377)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	... 56 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:69)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:241)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:259)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305)
+	... 83 more
+2016-04-11 15:49:15,779 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-11 15:49:18,046 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-04-11 15:49:36,997 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-04-11 15:49:37,001 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-04-11 15:49:37,001 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-04-11 15:51:16,088 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-11 15:51:16,088 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-11 15:51:45,887 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-04-11 15:51:45,887 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-04-11 15:51:55,377 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - UserAuthenticationHandler successfully authenticated devil+password
+2016-04-11 15:51:55,382 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated devil with credentials [devil+password].
+2016-04-11 15:51:55,386 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [devil+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:51:55 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:51:55,391 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-oQQdbeD7cll1jcAVwUeecwbmWnbWPvg6qgcsgFQqmW67Q6gbKb-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:51:55 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:51:55,402 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-1-rn2aTVdlC7uugEMt1nZg-cas01.example.org] for service [http://localhost:8088/clientA/index.jsp] for user [devil]
+2016-04-11 15:51:55,402 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: devil
+WHAT: ST-1-rn2aTVdlC7uugEMt1nZg-cas01.example.org for http://localhost:8088/clientA/index.jsp
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:51:55 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:51:55,669 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-1-rn2aTVdlC7uugEMt1nZg-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:51:55 CST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-04-11 15:51:59,647 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-2-eOryjz2MfnJN0Tux4eDt-cas01.example.org] for service [http://localhost:8088/clientA/index.jsp] for user [devil]
+2016-04-11 15:51:59,648 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: devil
+WHAT: ST-2-eOryjz2MfnJN0Tux4eDt-cas01.example.org for http://localhost:8088/clientA/index.jsp
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:51:59 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:51:59,680 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-2-eOryjz2MfnJN0Tux4eDt-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:51:59 CST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-04-11 15:52:56,332 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-3-FPEslTO5nBu2SXtsdrEE-cas01.example.org] for service [http://192.168.8.108:8188/clientB/index.jsp] for user [devil]
+2016-04-11 15:52:56,333 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: devil
+WHAT: ST-3-FPEslTO5nBu2SXtsdrEE-cas01.example.org for http://192.168.8.108:8188/clientB/index.jsp
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:52:56 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:53:01,728 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-4-0fSmEFllZsoyrYOQnkHX-cas01.example.org] for service [http://192.168.8.108:8188/clientB/index.jsp] for user [devil]
+2016-04-11 15:53:01,728 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: devil
+WHAT: ST-4-0fSmEFllZsoyrYOQnkHX-cas01.example.org for http://192.168.8.108:8188/clientB/index.jsp
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:53:01 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:53:04,095 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-5-aT4kldzovgG5ZNFThwhV-cas01.example.org] for service [http://192.168.8.108:8188/clientB/index.jsp] for user [devil]
+2016-04-11 15:53:04,095 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: devil
+WHAT: ST-5-aT4kldzovgG5ZNFThwhV-cas01.example.org for http://192.168.8.108:8188/clientB/index.jsp
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:53:04 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:53:16,070 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-11 15:53:16,070 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-11 15:53:37,107 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - ServiceTicket [ST-5-aT4kldzovgG5ZNFThwhV-cas01.example.org] has expired.
+2016-04-11 15:53:37,108 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-5-aT4kldzovgG5ZNFThwhV-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATE_FAILED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:53:37 CST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-04-11 15:53:46,471 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - ServiceTicket [ST-5-aT4kldzovgG5ZNFThwhV-cas01.example.org] does not exist.
+2016-04-11 15:53:46,471 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-5-aT4kldzovgG5ZNFThwhV-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATE_FAILED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:53:46 CST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-04-11 15:54:09,031 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - ServiceTicket [ST-5-aT4kldzovgG5ZNFThwhV-cas01.example.org] does not exist.
+2016-04-11 15:54:09,032 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-5-aT4kldzovgG5ZNFThwhV-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATE_FAILED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:54:09 CST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-04-11 15:54:28,477 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - UserAuthenticationHandler successfully authenticated devil+password
+2016-04-11 15:54:28,482 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated devil with credentials [devil+password].
+2016-04-11 15:54:28,483 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [devil+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:54:28 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:54:28,484 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-2-sKlvWBH7dEwxLRvkDb0UNvHdgRroVeQB7yJaNjmF0KrSTjWnRe-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:54:28 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:54:28,491 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-6-h19VrDRfdTmsKagbWbud-cas01.example.org] for service [http://192.168.8.108:8188/clientB/] for user [devil]
+2016-04-11 15:54:28,492 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: devil
+WHAT: ST-6-h19VrDRfdTmsKagbWbud-cas01.example.org for http://192.168.8.108:8188/clientB/
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:54:28 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:55:16,069 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-04-11 15:55:16,069 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-04-11 15:55:55,327 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - UserAuthenticationHandler successfully authenticated devil+password
+2016-04-11 15:55:55,331 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated devil with credentials [devil+password].
+2016-04-11 15:55:55,332 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [devil+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:55:55 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:55:55,332 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-3-YkDMTgMdhkFUfDFUA0M7PrlWxcVjfTngJW11RfVwOc6rudvwCM-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:55:55 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:55:55,337 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-7-gPS0xVperBf6JxLASa40-cas01.example.org] for service [http://192.168.8.106:8188/clientB/] for user [devil]
+2016-04-11 15:55:55,337 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: devil
+WHAT: ST-7-gPS0xVperBf6JxLASa40-cas01.example.org for http://192.168.8.106:8188/clientB/
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:55:55 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:55:55,611 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-7-gPS0xVperBf6JxLASa40-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:55:55 CST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-04-11 15:56:06,650 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-3-YkDMTgMdhkFUfDFUA0M7PrlWxcVjfTngJW11RfVwOc6rudvwCM-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Mon Apr 11 15:56:06 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-04-11 15:56:06,875 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [copyright] cannot be found in the language bundle for the locale [zh_CN]

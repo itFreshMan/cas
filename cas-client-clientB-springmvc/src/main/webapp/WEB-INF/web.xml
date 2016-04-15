@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<web-app version="2.5"   
+    xmlns="http://java.sun.com/xml/ns/javaee"   
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+    http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"> 
+<display-name>Central Authentication System (CAS) ${project.version}</display-name>
+ <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:applicationContext.xml</param-value>
+  </context-param>
+  <listener>  
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>  
+    </listener>  
+      
+    <servlet>  
+        <servlet-name>SpringMVC</servlet-name>  
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>  
+        <init-param>  
+            <param-name>contextConfigLocation</param-name>  
+            <param-value>classpath:applicationContext.xml</param-value>  
+        </init-param>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>SpringMVC</servlet-name>  
+        <url-pattern>/</url-pattern>  
+    </servlet-mapping>  
+      
+    <filter>  
+        <filter-name>CharacterEncodingFilter</filter-name>  
+        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>  
+        <init-param>  
+            <param-name>encoding</param-name>  
+            <param-value>UTF-8</param-value>  
+        </init-param>  
+        <init-param>  
+            <param-name>forceEncoding</param-name>  
+            <param-value>true</param-value>  
+        </init-param>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>CharacterEncodingFilter</filter-name>  
+        <url-pattern>/*</url-pattern>  
+    </filter-mapping>  
+  
+    <!-- SSO -->  
+    <!-- cas单点登出 -->
+    <!-- 
+   	 * @see CAS客户端配置单点登出 
+	 * @see 与单点登录相对应,通过CASServer登出所有的CASClient,登录的URL是/login,登出的URL是/logout 
+	 * @see 这里需要配置SingleSignOutFilter和SingleSignOutHttpSessionListener 
+	 * @see SingleSignOutFilter用来使Session失效,SingleSignOutHttpSessionListener用于在Session过期时移除其对应的映射关系 
+	 * @see 1.要为SingleSignOutFilter配置casServerUrlPrefix参数 
+	 * @see 2.默认的登出后会跳转到CASServer的登出页,若想跳转到其它资源,可在/logout的URL后面加上service=you want to jump url 
+	 * @see   比如http://sso.jadyer.com:8080/cas-server-web/logout?service=http://blog.csdn.net/jadyer 
+	 * @see   但默认servcie跳转不会生效,需要CASServer配置/WEB-INF/cas.properties中的cas.logout.followServiceRedirects=true 
+	 * @see   另外为org.jasig.cas.client.session.SingleSignOutFilter增加service参数是没用的,因为登出后跳转到指定资源属于服务端行为 
+	 * @see 3.禁用单点登出 
+	 * @see   CASServer/WEB-INF/cas.properties中的slo.callbacks.disabled=true 
+	 * @see   测试时点击登出后虽然页面跳转到了默认登出页,但再次访问CASClient资源发现并没有登出,即单点登出禁用成功 
+	 * @see 4.测试单点登出 
+	 * @see   测试时先登出,然后在浏览器新标签页访问CASClient资源,发现会自动重定向到单点登录页 
+	 * @see   或者登出后,点浏览器后退按钮,发现会后退到之前的CASClient资源页,但在这个页面点击任何请求,都会自动重定向到单点登录页 
+     -->
+     <listener>  
+        <listener-class>org.jasig.cas.client.session.SingleSignOutHttpSessionListener</listener-class>  
+    </listener>  
+    <filter>  
+        <filter-name>casSingleSignOutFilter</filter-name>  
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>casSingleSignOutFilter</filter-name>  
+        <url-pattern>/*</url-pattern>  
+    </filter-mapping>  
+    
+    
+    <filter>  
+        <filter-name>casAuthenticationFilter</filter-name>  
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>casAuthenticationFilter</filter-name>  
+        <url-pattern>/*</url-pattern>  
+    </filter-mapping>  
+    <filter>  
+        <filter-name>casTicketValidationFilter</filter-name>  
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>casTicketValidationFilter</filter-name>  
+        <url-pattern>/*</url-pattern>  
+    </filter-mapping>  
+    
+    <!-- 
+  	  <context-param>  
+        <param-name>serverName</param-name>  
+        <param-value>https://localhost:8443</param-value>  
+     </context-param>  
+     -->
+     <!-- 
+	   	 * @see 1.AuthenticationFilter 
+		 * @see   用来拦截请求,判断是否需要CASServer认证,需要则跳转到CASServer登录页,否则放行请求 
+		 * @see   有两个必须参数,一个是指定CASServer登录地址的casServerLoginUrl,另一个是指定认证成功后跳转地址的serverName或service 
+		 * @see   service和serverName设置一个即可,二者都设置时service的优先级更高,即会以service为准 
+		 * @see   service指的是一个确切的URL,而serverName是用来指定客户端的主机名的,格式为{protocol}:{hostName}:{port} 
+		 * @see   指定serverName时,该Filter会把它附加上当前请求的URI及对应的查询参数来构造一个确切的URL作为认证成功后的跳转地址 
+		 * @see   比如serverName为"http://gg.cn",当前请求的URI为"/oa",查询参数为"aa=bb",则认证成功后跳转地址为http://gg.cn/oa?aa=bb 
+		 * @see   casServerLoginUrl：去哪登录,serverName：我是谁 
+      -->
+    <!--   
+    <filter>  
+        <filter-name>casAuthenticationFilter</filter-name>  
+        <filter-class>org.jasig.cas.client.authentication.AuthenticationFilter</filter-class>  
+        <init-param>  
+            <param-name>casServerLoginUrl</param-name>  
+            <param-value>https://localhost:8443/cas/login</param-value>  
+        </init-param>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>casAuthenticationFilter</filter-name>  
+        <url-pattern>/*</url-pattern>  
+    </filter-mapping>  
+    -->
+    
+    <!-- 
+    	 * @see 2.TicketValidationFilter 
+    	 * @see   请求通过AuthenticationFilter认证后,若请求中携带了ticket参数,则会由该类Filter对携带的ticket进行校验 
+		 * @see   验证ticket的时候,要访问CAS服务的/serviceValidate接口,使用的url就是${casServerUrlPrefix}/serviceValidate 
+		 * @see   所以它也有两个参数是必须指定的,casServerUrlPrefix(CASServer对应URL地址的前缀)和serverName或service 
+		 * @see   实际上,TicketValidationFilter只是对验证ticket的这一类Filter的统称,其并不对应CASClient中的具体类型 
+		 * @see   CASClient中有多种验证ticket的Filter,都继承自AbstractTicketValidationFilter 
+		 * @see   常见的有Cas10TicketValidationFilter/Cas20ProxyReceivingTicketValidationFilter/Saml11TicketValidationFilter 
+		 * @see   它们的验证逻辑都是一致的,都有AbstractTicketValidationFilter实现,只是使用的TicketValidator不一样而已 
+		 * @see   如果要从服务器获取用户名之外的更多信息应该采用CAS20这个2.0协议的代理 
+     -->
+    <!-- 
+    <filter>  
+        <filter-name>casTicketValidationFilter</filter-name>  
+        <filter-class>org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter</filter-class>  
+        <init-param>  
+            <param-name>casServerUrlPrefix</param-name>  
+            <param-value>https://localhost:8443/cas</param-value>  
+        </init-param>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>casTicketValidationFilter</filter-name>  
+        <url-pattern>/*</url-pattern>  
+    </filter-mapping>  
+     -->  
+     
+     
+    <!--  
+		 * @see 3.HttpServletRequestWrapperFilter 
+		 * @see   用于封装每个请求的HttpServletRequest为其内部定义的CasHttpServletRequestWrapper 
+		 * @see   它会将保存在Session或request中的Assertion对象重写HttpServletRequest的getUserPrincipal()、getRemoteUser()、isUserInRole() 
+		 * @see   这样在我们的应用中就可以非常方便的从HttpServletRequest中获取到用户的相关信息
+  	--> 
+    <filter>  
+        <filter-name>casHttpServletRequestWrapperFilter</filter-name>  
+        <filter-class>org.jasig.cas.client.util.HttpServletRequestWrapperFilter</filter-class>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>casHttpServletRequestWrapperFilter</filter-name>  
+        <url-pattern>/*</url-pattern>  
+    </filter-mapping>
+    
+    <!-- 
+    	 * @see 4.AssertionThreadLocalFilter 
+		 * @see   为了方便用户在应用的其它地方获取Assertion对象,其会将当前的Assertion对象存放到当前的线程变量中 
+		 * @see   以后用户在程序的任何地方都可以从线程变量中获取当前的Assertion,而无需从Session或request中解析 
+		 * @see   该线程变量是由AssertionHolder持有的,我们在获取当前的Assertion时也只需Assertion assertion = AssertionHolder.getAssertion() 
+     --> 
+    <filter>  
+        <filter-name>casAssertionThreadLocalFilter</filter-name>  
+        <filter-class>org.jasig.cas.client.util.AssertionThreadLocalFilter</filter-class>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>casAssertionThreadLocalFilter</filter-name>  
+        <url-pattern>/*</url-pattern>  
+    </filter-mapping>  
+</web-app>
