@@ -6,8 +6,6 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Properties;
 
-import javax.annotation.PostConstruct;
-
 import org.springframework.binding.convert.ConversionService;
 import org.springframework.binding.expression.Expression;
 import org.springframework.binding.expression.ExpressionParser;
@@ -63,7 +61,7 @@ public abstract class AbstractMvcViewFactory implements ViewFactory {
 		Properties props = new Properties();
 		InputStream inputStream = null;
 		try {
-			inputStream = this.getClass().getClassLoader().getResourceAsStream("app_loign_page_config.properties");
+			inputStream = this.getClass().getClassLoader().getResourceAsStream("app_login_page_config.properties");
 			props.load(inputStream);
 		} catch (IOException e) {
 			e.printStackTrace();
