@@ -6,6 +6,8 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Properties;
 
+import javax.annotation.PostConstruct;
+
 import org.springframework.binding.convert.ConversionService;
 import org.springframework.binding.expression.Expression;
 import org.springframework.binding.expression.ExpressionParser;
@@ -55,19 +57,24 @@ public abstract class AbstractMvcViewFactory implements ViewFactory {
 	public HashMap<String, String> ssoLoginPageConfigCache = new HashMap<String, String>();
 
 	/**
-	 * 加载根据不同的关键字，指定不同的viewId
-	 * ####配置如下####
-	 * iosCasLoginView=ios,iphone,apple
-	 * ################
+	 * 加载根据不同的关键字，指定不同的viewId ####配置如下#### iosCasLoginView=ios,iphone,apple
 	 */
-	public void initSsoLoginPageConfigCache() {
-		InputStream inputStream = this.getClass().getClassLoader()
-				.getResourceAsStream("app_loign_page_config.properties");
+	private  void initSsoLoginPageConfigCache() {
 		Properties props = new Properties();
+		InputStream inputStream = null;
 		try {
+			inputStream = this.getClass().getClassLoader().getResourceAsStream("app_loign_page_config.properties");
 			props.load(inputStream);
 		} catch (IOException e) {
 			e.printStackTrace();
+		} finally {
+			if (inputStream != null) {
+				try {
+					inputStream.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
 		}
 
 		for (Entry entry : props.entrySet()) {
@@ -75,11 +82,11 @@ public abstract class AbstractMvcViewFactory implements ViewFactory {
 			String value = (String) entry.getValue();
 			ssoLoginPageConfigCache.put(key, value);
 		}
-
 	}
 
 	/**
 	 * 判断service中参数中,是否存在关键字key,重定向;
+	 * 
 	 * @param url
 	 * @param defaultViewId
 	 * @return
